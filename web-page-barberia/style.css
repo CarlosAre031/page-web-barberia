@@ -1,0 +1,191 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration:overline;
+
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    
+}
+.principal{
+
+    padding: 3em 0em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-Principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+ 
+
+}
+
+.principal p{
+    margin: 0 0 1em;
+
+}
+.principal strong{
+    font-weight: bold;
+    color: #c78c19;
+
+}
+.principal em{
+    font-style: italic;
+    color: #c78c19;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.mapa{
+    padding: 6em 6em;
+    background: linear-gradient(#fefefe, #888888) ;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.mapa-contenido{
+   width: 940px; 
+   margin: 0 auto;
+   box-shadow: 10px 10px #6d6d6d;
+   transition: 1.5s box-shadow;
+    
+}
+.mapa-contenido:hover{
+    box-shadow: 10px 10px #c78c19 ;
+
+}
+.diferenciales{
+    background: #888888;
+    padding: 3em 0;
+    
+}
+
+#mision{
+    font-size: 20px;
+}
+
+
+
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+ 
+
+    margin-right: 15%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "💈";
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+
+.imagenDiferencial{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #575757;
+
+}
+.imagenDiferencial:hover{
+    opacity: 0.3;
+    transition: 400ns;
+    box-shadow: 10px 10px 30px 15px #c78c19 ;
+
+}
+.video{
+    width: 600px;
+    margin: 1em auto;
+    box-shadow: 10px 10px #575757;
+    transition: 1.5s box-shadow;
+    
+
+}
+.video:hover{
+    box-shadow: 10px 10px #c78c19;
+
+}
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.Copyright{
+    color:#ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+@media screen and (max-width:480px) {
+   h1{
+    text-align: center;
+   }
+   nav{
+    position: static;
+   }
+   
+   
+    .caja, .principal, .mapa-contenido,.contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagenDiferencial{
+       width: 100% ; 
+    }
+}
